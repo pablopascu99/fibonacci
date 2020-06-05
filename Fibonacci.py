@@ -34,6 +34,11 @@ if __name__ == '__main__':
     try:
         p = Pool()
         print (p.map(fibP, [5,16,20]))
+        # NO HACIA FALTA USAR POOL
+        # NO ESTAS TRABAJANDO EN PARALELO
+        # NO USAS MEMORIA COMPARTIDA, COMO ALMACENAS LOS RESULTADOS PARCIALES ?
+        # NO OBTIENES LOS CORES DE LA MAQUINA CONFORME AL ENUNCIADO
+
     finally:
         p.close()
     finP=time.time()
